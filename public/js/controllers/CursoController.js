@@ -1,5 +1,5 @@
 angular.module('ifsp').controller('CursoController',
-    function($scope, $routeParams, $resource) {
+    function($scope, $routeParams, Curso) {
         //var Curso = $resource('/cursos/:id');
         if ($routeParams.cursoId) {
 
